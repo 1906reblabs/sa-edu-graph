@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Verification & trust levels — SA Education Resource Graph</title>
+<meta name="description" content="How resources on SA Education Resource Graph are rated for trust and quality.">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1C2B45; --paper:#EFEDE6; --paper-raised:#FAF9F5;
+    --ochre:#C97A2B; --fynbos:#2E6B57; --rust:#A6423C;
+    --slate:#5B6472; --slate-light:#DAD7CC; --radius:3px;
+    --font-display:'Fraunces', serif; --font-ui:'IBM Plex Sans', sans-serif;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font-ui);line-height:1.6;}
+  a{color:var(--ochre);}
+  a:hover{color:#B06A22;}
+  .skip-link:focus{position:fixed;top:8px;left:8px;background:var(--ink);color:var(--paper);padding:.5rem 1rem;z-index:100;}
+  header.site-head{border-bottom:1px solid var(--slate-light);background:var(--paper-raised);}
+  .head-inner{max-width:1180px;margin:0 auto;padding:1rem 1.5rem;display:flex;align-items:center;gap:1rem;flex-wrap:wrap;}
+  .mark{display:flex;align-items:center;gap:.6rem;text-decoration:none;color:var(--ink);}
+  .mark svg{width:30px;height:30px;flex:none;}
+  .mark-text{font-family:var(--font-display);font-weight:600;font-size:1.15rem;letter-spacing:.01em;}
+  .mark-text small{display:block;font-family:var(--font-ui);font-weight:400;font-size:.68rem;color:var(--slate);letter-spacing:.02em;}
+  main{max-width:760px;margin:0 auto;padding:2.5rem 1.5rem 4rem;}
+  main h1{font-family:var(--font-display);font-weight:500;font-size:1.9rem;margin:0 0 1.25rem;}
+  main h2{font-family:var(--font-display);font-weight:500;font-size:1.3rem;margin:2rem 0 .75rem;}
+  main p, main li{font-size:.96rem;color:var(--ink);}
+  main p{margin:0 0 1rem;}
+  main ul, main ol{margin:0 0 1rem;padding-left:1.3rem;}
+  main li{margin-bottom:.4rem;}
+  .lede{color:var(--slate);font-size:1.02rem;}
+  .callout{border:1px solid var(--ochre);background:#FFF4E5;border-radius:var(--radius);padding:1rem 1.2rem;color:#6b4415;margin:1.5rem 0;font-size:.92rem;}
+  .badge{font-size:.72rem;padding:.15rem .55rem;border-radius:12px;border:1px solid var(--slate-light);color:var(--slate);background:#fff;display:inline-block;margin:.15rem .3rem .15rem 0;}
+  .badge.trust-A,.badge.trust-B{border-color:var(--fynbos);color:var(--fynbos);}
+  .badge.trust-C{border-color:var(--ochre);color:var(--ochre);}
+  .badge.trust-D,.badge.trust-E{border-color:var(--rust);color:var(--rust);}
+  table{width:100%;border-collapse:collapse;margin:1rem 0 1.5rem;font-size:.9rem;}
+  th,td{text-align:left;padding:.5rem .6rem;border-bottom:1px solid var(--slate-light);vertical-align:top;}
+  th{color:var(--slate);font-weight:600;font-size:.8rem;}
+  code{background:var(--paper-raised);border:1px solid var(--slate-light);border-radius:2px;padding:.1rem .35rem;font-size:.88em;}
+  footer{border-top:1px solid var(--slate-light);background:var(--paper-raised);}
+  .foot-inner{max-width:1180px;margin:0 auto;padding:2rem 1.5rem;font-size:.82rem;color:var(--slate);}
+  .foot-inner h4{font-family:var(--font-ui);font-size:.82rem;color:var(--ink);margin:0 0 .4rem;}
+  .foot-cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1.5rem;margin-bottom:1.5rem;}
+  .foot-cols a{display:block;margin-bottom:.3rem;text-decoration:none;color:var(--slate);}
+  .foot-cols a:hover{color:var(--ochre);}
+  .foot-bottom{border-top:1px solid var(--slate-light);padding-top:1rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:.5rem;}
+  .placeholder{background:#FDECEC;border:1px dashed var(--rust);color:#7a2b26;padding:.15rem .4rem;border-radius:2px;font-size:.85em;}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="head-inner">
+    <a class="mark" href="/">
+      <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="8" cy="10" r="3.2" fill="#C97A2B"/>
+        <circle cx="30" cy="8" r="3.2" fill="#2E6B57"/>
+        <circle cx="12" cy="30" r="3.2" fill="#1C2B45"/>
+        <circle cx="32" cy="28" r="3.2" fill="#C97A2B"/>
+        <path d="M8 10 L30 8 M8 10 L12 30 M30 8 L32 28 M12 30 L32 28" stroke="#1C2B45" stroke-width="1.1" opacity=".55"/>
+      </svg>
+      <span class="mark-text">SA Education Resource Graph<small>Verified, free, linked — not hosted</small></span>
+    </a>
+  </div>
+</header>
+<main id="main">
+
+<h1>Verification &amp; trust levels</h1>
+<p class="lede">Every listing carries two independent signals: a <strong>trust level</strong> (where the resource comes from) and a <strong>quality score</strong> (how complete and usable it is). Neither is a judgement on the resource's academic content — both describe how confident we are in the link and its provenance.</p>
+
+<h2>Trust level</h2>
+<table>
+  <tr><th>Level</th><th>Meaning</th></tr>
+  <tr><td><span class="badge trust-A">A</span></td><td>Official primary source — the resource is hosted directly by the government department, assessment body, or exam board that produced it.</td></tr>
+  <tr><td><span class="badge trust-B">B</span></td><td>Verified reputable secondary source — a well-established organisation hosting official content on the original publisher's behalf.</td></tr>
+  <tr><td><span class="badge trust-C">C</span></td><td>Unverified third-party rehost — content usually appears genuine, but the hosting site is not the original publisher and provenance or licensing is unconfirmed. We say so explicitly in the listing description.</td></tr>
+  <tr><td><span class="badge trust-D">D</span></td><td>Low-confidence source — meaningful accuracy, currency or provenance concerns.</td></tr>
+  <tr><td><span class="badge trust-E">E</span></td><td>Flagged — under review, kept listed only where no better source exists.</td></tr>
+</table>
+
+<h2>Quality score</h2>
+<p>A 0–100 editorial score reflecting completeness (question paper <em>and</em> memo present, correct year/session), formatting, and how directly the link resolves to the actual document rather than a folder or index page. A high trust level does not guarantee a high quality score, and vice versa — an official source can still score lower if, for example, only the memo is available.</p>
+
+<h2>What "verified" means here</h2>
+<p>Each listing's <code>last_verified</code> date records when we last confirmed the link resolved and the metadata was accurate. It does not mean we checked the resource for correctness against the current syllabus — that responsibility stays with the teacher or learner using it.</p>
+
+<div class="callout">
+  Spotted a broken link, a wrong grade/subject tag, or a source we've rated too generously (or too harshly)? <a href="/report-issue.html">Let us know</a>.
+</div>
+
+</main>
+<footer>
+  <div class="foot-inner">
+    <div class="foot-cols">
+      <div>
+        <h4>About</h4>
+        <a href="/about.html">How this index works</a>
+        <a href="/methodology.html">Verification &amp; trust levels</a>
+        <a href="/gaps.html">This cycle's coverage gap report</a>
+      </div>
+      <div>
+        <h4>Policies</h4>
+        <a href="/privacy.html">Privacy policy</a>
+        <a href="/CONTENT-LICENSE.html">Content licence</a>
+        <a href="/report-issue.html">Report a broken link or wrong listing</a>
+      </div>
+      <div>
+        <h4>Curriculum</h4>
+        <a href="/curriculum/caps.html">CAPS / NCS</a>
+        <a href="/curriculum/ieb.html">IEB</a>
+        <a href="/curriculum/cambridge.html">Cambridge</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>Original descriptions and classifications are CC BY 4.0. Linked resources belong to their original publishers — we index, we don't host. We are not affiliated with the Department of Basic Education.</span>
+      <span>© <span id="year"></span> SA Education Resource Graph</span>
+    </div>
+  </div>
+</footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
